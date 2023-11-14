@@ -1,0 +1,89 @@
+/*
+#725752 - Liver
+#878E88 - Battleship Gray
+#96C0B7 - Cambridge Blue
+#D4DFC7 - Beige
+#FEF6C9 - Lemon chiffon
+*/
+
+
+body{
+    background-color: #D4DFC7;
+}
+
+header{
+    background-color: #878E88;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav{
+    background-color: #96C0B7;
+    color: #fff;
+    text-align: center;
+    position: sticky;
+}
+
+nav a {
+    padding: 14px 16px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #725752;
+    color: white;
+}
+
+
+main{
+    padding: 10px;
+}
+
+h1{
+    display: flex;
+}
+
+h2{
+    display: flex;
+}
+
+.card {
+    background-color: #fff;
+    padding: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 50px;
+}
+
+.inf{
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.inf{
+    display: flex;
+}
+
+.headpho{
+    width: 30%;
+    margin-left: 0px;
+    margin-right: 30px;
+    float: left;
+}
+
+
+footer {
+    background-color: #96C0B7;
+    color: #444444;
+    text-align: center;
+    padding: 10px;
+}
